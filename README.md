@@ -16,7 +16,7 @@ The response code for detecting Nginx Remote Overflow is 206 and Partial Content
  Connection: close<br/>
  User-Agent: Python-urllib/2.7<br/>
 
-## Response
+### Response
 
  HTTP/1.1 206 Partial Content<br/>
  Server: nginx/1.13.1<br/>
@@ -29,3 +29,18 @@ The response code for detecting Nginx Remote Overflow is 206 and Partial Content
  --00000000000000000002<br/>
  Content-Type: text/html<br/>
  Content-Range: bytes -623-16584/16585<br/>
+
+#### Requirements:
+
+1) requests
+2) optparse
+
+##### Download Requirements:
+
+pip install -r requriements.txt
+
+###### Download:
+
+1) git clone 
+2) cd Cve_Finder_2017-7529
+3) python nginx_remote_integer_overflow.py -d https://domain.com
